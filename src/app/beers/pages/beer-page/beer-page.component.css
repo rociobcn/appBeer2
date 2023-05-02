@@ -1,0 +1,113 @@
+.spinner {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #f1c40f;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  margin-top: 250px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.font {
+  font-weight: 500;
+}
+
+.top {
+  margin-top: 200px;
+}
+
+h1 {
+  color: #000b4f;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.btn2 {
+  display: flex;
+  background-color: #000b4f !important;
+  color: white !important;
+  padding: 12px 24px;
+  font-size: 0.8em !important;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  place-items: center;
+  font-family: unset;
+  margin: 6px;
+}
+
+.btn2:hover {
+  background-color: #fff;
+  color: #000b4f;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+.btn2:active {
+  transform: translateY(2px);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  width: min-content;
+  height: fit-content;
+  border-radius: 20px;
+}
+
+.card2 {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 600px;
+}
+
+@media screen and (max-width: 640px) {
+  .card2 {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card2 {
+    width: 300px;
+  }
+}
+
+.elevated-div {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.elevated-div:hover {
+  transform: translateY(-5px);
+}
+.margin{
+  margin-top: 50px;
+}

@@ -1,0 +1,17 @@
+<div class="flex flex-column align-items-center margin">
+  <div class="w-full search-container">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Do you have a beer in mind? Search here"
+      (keyup)="searchByName(txtInput.value)"
+      #txtInput
+      class="mt-8 w-9"
+    />
+  </div>
+  <div class="result-beer flex flex-column align-items-center text-center">
+      <a *ngFor="let result of beers; let i = index" (click)="searchRoute(result.id)" class="white mb-2">
+      <strong> {{ result.name }}</strong>
+      </a>
+  </div>
+</div>

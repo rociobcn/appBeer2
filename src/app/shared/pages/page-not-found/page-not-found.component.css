@@ -1,0 +1,39 @@
+.beer-404-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 140px;
+}
+.beer-404-page-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beer-404-page-body p {
+  font-size: 1em;
+  margin: 2em 0 1em 0;
+  color: #000b4f;
+  align-self: center;
+  text-align: justify;
+}
+
+.beer-404-page-body img {
+  height: auto;
+  width: 40%;
+}
+
+@media (max-width: 1500px) {
+  .beer-404-page-body img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .beer-404-page-body img {
+    width: 80%;
+  }
+}

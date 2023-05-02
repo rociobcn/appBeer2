@@ -1,0 +1,71 @@
+input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+}
+
+input:focus {
+  border-color: #f1c40f;
+  box-shadow: 0 0 0 0.2rem rgb(239, 225, 71);
+}
+
+.search-container {
+  text-align: center;
+}
+
+.result-beer {
+  position: relative;
+  z-index: 1;
+}
+
+.white {
+  background-color: white;
+  margin: 3px;
+}
+
+.result-beer {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.result-beer a {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 20px;
+  color: #000b4f;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: white;
+  width: 30%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.result-beer a:hover {
+  background-color: #000b4f;
+  color: white;
+}
+
+.result-beer a:active {
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 1200px) {
+  .result-beer a {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .result-beer a {
+    width: 60%;
+  }
+}
+.margin{
+  margin-top: 90px;
+}

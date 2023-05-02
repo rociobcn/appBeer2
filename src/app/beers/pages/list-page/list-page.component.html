@@ -1,0 +1,9 @@
+<div class="margin grid">
+  <div class="grid col-12 md:col-6 lg:col-3" infiniteScroll (scrolled)="loadMoreBeers()">
+    <div>
+      <div *ngFor="let beer of beers" class="card-container">
+        <app-card-beer [beer]="beer"></app-card-beer>
+      </div>
+    </div>
+  </div>
+</div>

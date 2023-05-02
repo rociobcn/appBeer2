@@ -1,0 +1,27 @@
+img {
+  max-height: auto;
+  width: 60px;
+  object-fit: cover;
+}
+
+.card {
+  border: 2px solid #f1c40f;
+  border-radius: 15px;
+  height: 500px;
+  width: 300px;
+  justify-content: space-around;
+}
+
+h2,
+h6 {
+  margin-inline: auto;
+  max-width: 150px;
+}
+
+h2 {
+  color: #000b4f;
+}
+
+h6 {
+  font-weight: 500;
+}

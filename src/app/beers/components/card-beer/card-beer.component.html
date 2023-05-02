@@ -1,0 +1,17 @@
+<div
+  class="m-6 flex flex-column text-center card"
+>
+  <div class="mb-4">
+    <h2 class="text">{{ beer.name }}</h2>
+    <h6 class="text">{{ beer.tagline }}</h6>
+  </div>
+
+  <div class="beer-content">
+    <img [src]="beer.image_url" [alt]="beer.name" />
+    <div>
+      <button [routerLink]="['/beers/', beer.id]" class="btn mt-4 mb-4">
+        More info
+      </button>
+    </div>
+  </div>
+</div>
