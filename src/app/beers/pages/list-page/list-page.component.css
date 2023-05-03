@@ -5,3 +5,6 @@
 /* .grid{
   height: 100vh;
 } */
+.center{
+  place-content: center;
+}
